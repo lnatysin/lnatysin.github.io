@@ -604,8 +604,8 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: 250px;
+  height: 250px;
 }
 
 .img-thumbnail {
@@ -10984,6 +10984,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
+  border-radius: 50%;
   width: 15rem;
 }
 
@@ -11004,7 +11005,8 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  height:250px;
+  width:250px;
   border-radius: 0.5rem;
   overflow: hidden;
 }
